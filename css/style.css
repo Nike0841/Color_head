@@ -1,0 +1,89 @@
+.nav { 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.container {
+	max-width: 500px!important;
+	background-color: #797373a5;
+}
+.img {
+	background-image: url(../img/foto_header.jpg);
+	width: 450px;
+	height: 420px;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+	
+}
+.text1 {
+	position: relative;
+	z-index: 0;
+}
+.text {
+	font-size: 300%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 5%;
+	
+}
+.text_header {
+	font-size: 150%;
+	color: #e60b0ba5;
+	text-align: center;
+}
+
+
+.messanger1 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+} 
+.phone1 {
+	margin-bottom: 10px;
+}
+.nav-link {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/*О нас*/
+.h2 {
+	padding-top: 15px;
+}
+
+.About-Us__text {
+	margin-bottom: 0;
+}
+.About-us__text {
+	color: #e60b0ba5;
+	font-size: 200%;
+	
+}
+.colortext {
+	color: #e60b0ba5;
+}
+
+/*Прайс*/
+.list-group {
+	
+}
+.list-group-item {
+	background-color: #a39d9da5!important;
+}
+.Price__ul {
+	list-style-type: none;
+}
+
+/*Работы*/
+.swiper {
+	max-width: 450px;
+	max-height: 300px;
+  }
+
+  /*Footer*/
+.footer__contakts {
+	padding-top: 10%;
+}
+.footer__messanger {
+	padding-bottom: 5%;
+}
