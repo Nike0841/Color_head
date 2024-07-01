@@ -2,6 +2,10 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+.text__name__header {
+	color: black;
+	font-size: 35px;
+}
 .container {
 	max-width: 500px!important;
 	background-color: #797373a5;
@@ -9,11 +13,14 @@
 .img {
 	background-image: url(../img/foto_header.jpg);
 	width: 450px;
-	height: 420px;
+	height: 500px;
 	background-repeat: no-repeat;
 	text-align: center;
 	
 	
+}
+.text2 {
+	white-space: nowrap;
 }
 .text1 {
 	position: relative;
@@ -27,8 +34,8 @@
 	
 }
 .text_header {
-	font-size: 150%;
-	color: #e60b0ba5;
+	font-size: 170%;
+	color: black;
 	text-align: center;
 }
 
@@ -40,17 +47,49 @@
 	
 } 
 .phone1 {
+	margin-left: 10px;
 	margin-bottom: 10px;
+	color: black;
 }
 .nav-link {
 	margin-top: 10px;
 	margin-right: 10px;
 }
+/*Кнопка*/
+.gradient-button {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 20px 30px;
+	margin: 10px 20px;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+	background-size: 200% auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+	transition: .5s;
+  }
+  .gradient-button:hover {
+	background-position: right center;
+  }
+
+
 /*О нас*/
 .h2 {
 	padding-top: 15px;
 }
-
+.col {
+    flex:none;
+}
+.About-Us__foto {
+    max-width: 80%;
+}
+.About-Us__text {
+    font-size:large;
+    margin-top: 20px;
+}
 .About-Us__text {
 	margin-bottom: 0;
 }
@@ -76,9 +115,20 @@
 
 /*Работы*/
 .swiper {
-	max-width: 450px;
-	max-height: 300px;
+	/*max-width: 450px;
+	max-height: 300px;*/
+	max-width: 70%;
+	max-height: 70%;
   }
+
+  /*Моя продукция*/
+
+.Production__razrabotka {
+	width: 400px;
+	height: 350px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
 
   /*Footer*/
 .footer__contakts {
